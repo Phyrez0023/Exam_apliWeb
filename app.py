@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, session, f
 from datetime import datetime
 
 app = Flask(__name__)
-app.secret_key = 'mi_clave_secreta'  # Cambia esto a una clave secreta en producción
+app.secret_key = 'mi_clave_secreta' 
 
 # Ruta principal que muestra la lista de productos
 @app.route('/')
